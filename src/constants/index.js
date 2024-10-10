@@ -3,40 +3,51 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate full stack developer with a strong focus on creating robust and efficient web and mobile applications. During my participation in the Full-Stack Web Developer Program at Ironhack (October 2023 - May 2024), I gained solid experience in front-end technologies such as HTML, CSS, and JavaScript, alongside frameworks like React. I also developed back-end skills with Node.js and Express.js, and worked with databases like MongoDB.
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+Ironhack allowed me to work on both individual and team projects, where I enhanced my problem-solving and collaboration skills. Currently, I am expanding my knowledge by learning Android development using Kotlin and Jetpack Compose, applying full stack principles to deliver innovative and high-quality solutions.`;
 
-export const EXPERIENCES = [
+export const ABOUT_TEXT = `I am a developer currently expanding my skills in Android application development with Kotlin and Jetpack Compose. I have recently completed the Full-Stack Web Developer Program at Ironhack, where I gained practical knowledge in front-end technologies like HTML, CSS, and JavaScript, as well as back-end development with Node.js and Express.js. 
+My academic background includes a Double Master's in Labor Sciences and Human Resource Management from the University of Sevilla and a Bachelor's Degree in Labor Relations from the University of La Laguna. I thrive in collaborative environments and enjoy solving complex problems to create innovative solutions that enhance user experiences.`;
+
+export const EDUCATION = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "Sept. 2024 - Dec. 2024",
+    role: "Student",
+    institution: "Velox",
+    description: `Currently enrolled in the Android Application Development course, where I am learning to build mobile applications using Kotlin and Jetpack Compose.`,
+    technologies: ["Kotlin", "Jetpack Compose"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "Oct. 2023 - May 2024",
+    role: "Student",
+    institution: "Ironhack",
+    description: `Completed the Full-Stack Web Developer Program, gaining expertise in front-end technologies such as HTML, CSS, and JavaScript. Worked with frameworks like React and developed back-end skills using Node.js and Express.js, alongside databases like MongoDB.`,
+    technologies: ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express.js", "MongoDB"],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    year: "Sept. 2021 - Jul. 2023",
+    role: "Student",
+    institution: "Universidad de Sevilla",
+    description: `Completed a Double Master's in Labor Sciences and Human Resources Management & Development. Gained strong expertise in human resources and project management in HR.`,
+    technologies: ["Human Resources", "Project Management"],
   },
   {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "2015 - 2020",
+    role: "Student",
+    institution: "Universidad de La Laguna",
+    description: `Graduated with a degree in Labor Relations. Developed foundational knowledge in human resources and labor law.`,
+    technologies: ["Human Resources"],
+  },
+  {
+    year: "Oct. 2019 - Jan. 2020",
+    role: "Intern",
+    institution: "S&G Asesores",
+    description: `Completed an internship in the human resources department, supporting administrative tasks and payroll management.`,
+    technologies: ["Excel", "Payroll Management Systems"],
   },
 ];
+
 
 export const PROJECTS = [
   {
