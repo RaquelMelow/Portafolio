@@ -5,7 +5,7 @@ import { SiMongodb, SiJavascript, SiHtml5, SiCss3, SiKotlin } from "react-icons/
 const Technologies = () => {
     return (
         <div className="border-b border-neutral-900 pb-4 lg:mb-10 py-6 m-10">
-            <h2 className='my-20 text-center text-4xl font-bold bg-gradient-to-r from-purple-400 via-indigo-500 to-pink-400 text-transparent bg-clip-text'>
+            <h2 className='mb-10 text-center text-4xl font-bold bg-gradient-to-r from-purple-400 via-indigo-500 to-pink-400 text-transparent bg-clip-text'>
                 Technologies
             </h2>
 

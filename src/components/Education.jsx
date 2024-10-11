@@ -3,7 +3,7 @@ import { EDUCATION } from "../constants"
 const Education = () => {
   return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-10 py-6 gap-6 m-10">
-      <h2 className="text-5xl font-bold text-center my-12 bg-gradient-to-r from-purple-400 via-indigo-500 to-pink-400 text-transparent bg-clip-text">
+      <h2 className="text-5xl font-bold text-center mb-12 bg-gradient-to-r from-purple-400 via-indigo-500 to-pink-400 text-transparent bg-clip-text">
         Education & Experience
       </h2>
       <div className="space-y-8">
